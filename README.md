@@ -14,6 +14,7 @@ Fonte 6 - Usei o Deep Research para incrementar
 
 ## 🧠 Engenharia de Prompts
 **Prompt 1** - Para começarmos, como foi e qual era o intuito da criação do Pandas?
+
 **Resposta** - A criação da biblioteca Pandas foi iniciada por Wes McKinney em 2008, enquanto ele trabalhava na AQR Capital Management
 . O desenvolvimento surgiu da necessidade de ferramentas mais robustas para a análise de dados financeiros, e a biblioteca foi tornada código aberto (open source) no final de 2009
 O intuito principal por trás de sua criação e os problemas que ela buscou resolver incluem:
