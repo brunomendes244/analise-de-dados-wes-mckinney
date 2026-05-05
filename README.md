@@ -22,6 +22,7 @@ Estruturação de Dados Tabulares: Introduziu o conceito de DataFrame, uma estru
 ****
 
 **Prompt 2** - Vamos falar sobre a estrutura de um DataFrame.
+
 **Resposta** - O DataFrame é a estrutura de dados central da biblioteca Pandas, sendo descrito como uma estrutura bidimensional rotulada que organiza os dados em um formato tabular, de maneira muito semelhante a uma planilha eletrônica ou uma tabela de banco de dados SQL. Abaixo, detalho os principais componentes e características dessa estrutura:
 1. Organização Tabular - Diferente de um array simples, o DataFrame possui duas dimensões principais: Colunas: Cada coluna representa uma variável específica, que pode conter diferentes tipos de dados (numéricos, strings, datas, etc.). Linhas: Representam as observações individuais ou registros. Rótulos (Labels): Tanto as linhas quanto as colunas possuem rótulos integrados (índices), o que permite o acesso rápido aos dados e o alinhamento automático durante operações matemáticas.
 2. Diferença entre DataFrame e Series - Uma distinção fundamental no Pandas é entre o DataFrame e a Series: Series: É uma estrutura unidimensional, comparável a uma única coluna de dados. DataFrame: É essencialmente um contêiner de objetos Series, onde cada coluna é uma Series que compartilha o mesmo índice de linhas com as outras.
@@ -31,6 +32,7 @@ Estruturação de Dados Tabulares: Introduziu o conceito de DataFrame, uma estru
 Gostaria de ver um exemplo de como criar um DataFrame a partir de um dicionário Python ou prefere aprender como selecionar colunas e filtrar linhas específicas?
 
 **Prompt 3** - Como o Pandas me ajuda com automatização na análise?
+
 **Resposta** - O Pandas é uma ferramenta fundamental para a automatização pois transforma tarefas manuais, repetitivas e demoradas em fluxos de trabalho programáveis, rápidos e reprodutíveis. Em vez de utilizar ferramentas de "clicar e apontar", o uso de scripts em Pandas garante que qualquer análise possa ser repetida e verificada automaticamente por outros. Aqui estão as principais formas como a biblioteca auxilia na automatização da análise de dados:
 1. Limpeza e Preparação Automática de Dados - O Pandas foi projetado especificamente para lidar com "dados sujos" ou mal estruturados, automatizando tarefas que antes eram feitas célula a célula em planilhas. Tratamento de valores ausentes: Possui ferramentas integradas para identificar, remover ou preencher lacunas de dados automaticamente. Remoção de duplicatas: Através de funções como drop_duplicates(), é possível limpar grandes conjuntos de dados instantaneamente. Transformação de formatos: Automatiza a conversão de tipos de dados, como transformar strings em formatos de data e hora para análises temporais.
 3. Ingestão e Exportação de Múltiplos Formatos - A biblioteca elimina a necessidade de converter arquivos manualmente antes da análise. Ela oferece ferramentas para ler e escrever dados de forma automática entre a memória do computador e diversos formatos, incluindo CSV, Excel, bancos de dados SQL, JSON e HDF5. A integração com APIs de dados permite, por exemplo, a criação de relatórios financeiros que seriam compilados manualmente em horas. 
@@ -40,6 +42,7 @@ Gostaria de ver um exemplo de como criar um DataFrame a partir de um dicionário
 Deseja que eu crie um relatório detalhado com as melhores práticas para estruturar um pipeline de automação de dados utilizando Pandas e outras bibliotecas do ecossistema?
 
 **Prompt 4** - Ao invés de criar um relatório detalhado, crie um resumo em tópicos para um leigo entender sobre o pipeline de automação de dados. 
+
 **Reposta** - Um pipeline de automação de dados funciona como uma linha de montagem de uma fábrica: a informação bruta entra em uma ponta e, após passar por várias etapas automáticas, sai como um insight valioso ou uma previsão do futuro na outra. Aqui estão os principais estágios desse processo explicados de forma simples:
 1. Coleta Inteligente (Ingestão): O sistema busca dados automaticamente de diversas fontes, como planilhas de Excel, arquivos de texto (CSV) ou bancos de dados complexos. Isso elimina a necessidade de copiar e colar informações manualmente.
 2. Faxina Automática (Limpeza): Esta é a fase em que o Pandas brilha, corrigindo "dados sujos". O pipeline remove informações duplicadas, preenche buracos (dados faltantes) e padroniza formatos, como datas e nomes, garantindo que a análise seja confiável.
