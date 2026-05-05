@@ -11,6 +11,7 @@ Fonte 3 - https://wesmckinney.com
 Fonte 4 - https://github.com/wesm/pydata-book/tree/3rd-edition
 Fonte 5 - https://www.dio.me/articles/bibliotecas-python-pandas
 Fonte 6 - Usei o Deep Research para incrementar
+****
 
 ## 🧠 Engenharia de Prompts
 **Prompt 1** - Para começarmos, como foi e qual era o intuito da criação do Pandas?
@@ -30,6 +31,7 @@ Estruturação de Dados Tabulares: Introduziu o conceito de DataFrame, uma estru
 4. Base Tecnológica (NumPy) - Embora ofereça uma camada de abstração muito mais amigável para negócios, o DataFrame é construído sobre o NumPy. Isso significa que, por baixo dos panos, ele utiliza arrays multidimensionais otimizados para garantir que as operações de manipulação sejam rápidas e eficientes.
 5. Tratamento de Dados - Uma das maiores vantagens dessa estrutura é a sua inteligência integrada para lidar com "dados sujos": Valores Ausentes: Possui mecanismos nativos para identificar e manipular dados nulos ou faltantes de forma automática. Alinhamento de Dados: Ao realizar operações entre dois DataFrames, o Pandas utiliza os rótulos para garantir que os dados corretos sejam combinados, mesmo que as tabelas não estejam na mesma ordem.
 Gostaria de ver um exemplo de como criar um DataFrame a partir de um dicionário Python ou prefere aprender como selecionar colunas e filtrar linhas específicas?
+****
 
 **Prompt 3** - Como o Pandas me ajuda com automatização na análise?
 
@@ -40,6 +42,7 @@ Gostaria de ver um exemplo de como criar um DataFrame a partir de um dicionário
 5. Análise de Séries Temporais - Para setores como o financeiro, o Pandas automatiza operações complexas de tempo que seriam exaustivas em outras ferramentas. Isso inclui a geração de intervalos de datas, conversão de frequências, cálculos de janelas móveis (como médias móveis) e deslocamentos temporais automáticos.
 6. Criação de Pipelines de Ciência de Dados - O Pandas atua como uma ponte em um pipeline contínuo, onde a saída de uma etapa de limpeza serve como entrada automática para modelos preditivos de Machine Learning ou visualizações estatísticas. Isso permite que todo o processo — desde a captura do dado bruto até o insight final — seja executado como um único processo automatizado.
 Deseja que eu crie um relatório detalhado com as melhores práticas para estruturar um pipeline de automação de dados utilizando Pandas e outras bibliotecas do ecossistema?
+****
 
 **Prompt 4** - Ao invés de criar um relatório detalhado, crie um resumo em tópicos para um leigo entender sobre o pipeline de automação de dados. 
 
@@ -49,7 +52,7 @@ Deseja que eu crie um relatório detalhado com as melhores práticas para estrut
 3. Investigação de Padrões (Análise Exploratória): O computador organiza os dados para encontrar tendências. Ele pode agrupar milhões de vendas por mês ou por região instantaneamente, revelando comportamentos que seriam impossíveis de notar em uma tabela comum.
 4. Tradução Visual (Visualização): Os números complexos são transformados em gráficos e mapas de calor intuitivos. O objetivo é "contar uma história" com os dados, tornando a interpretação clara para qualquer pessoa decidir o próximo passo do negócio.
 5. Cérebro Preditivo (Machine Learning): Em pipelines mais avançados, os dados limpos alimentam modelos de inteligência artificial. Eles aprendem com o que aconteceu no passado para prever o que pode acontecer amanhã, como a chance de um cliente cancelar um serviço ou o valor futuro de um imóvel. Por que isso é útil? A automação garante a reprodutibilidade: uma vez que o código é escrito, você pode repetir a mesma análise meses depois com novos dados apenas apertando um botão, sem risco de erros humanos no processo.
-
+****
 
 ## 📖 Glossário e Revisão
 
