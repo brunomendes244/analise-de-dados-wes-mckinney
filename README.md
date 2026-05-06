@@ -54,5 +54,12 @@ Deseja que eu crie um relatório detalhado com as melhores práticas para estrut
 5. Cérebro Preditivo (Machine Learning): Em pipelines mais avançados, os dados limpos alimentam modelos de inteligência artificial. Eles aprendem com o que aconteceu no passado para prever o que pode acontecer amanhã, como a chance de um cliente cancelar um serviço ou o valor futuro de um imóvel. Por que isso é útil? A automação garante a reprodutibilidade: uma vez que o código é escrito, você pode repetir a mesma análise meses depois com novos dados apenas apertando um botão, sem risco de erros humanos no processo.
 ****
 
-## 📖 Glossário e Revisão
+**Cicatrizes/Raciocíonio** - Comecei com a história do Pandas, para entender a motivação da criação dessa biblioteca (Prompt 1) em seguida, ele me sugeriu alguns dois temas, particulamente me interessei pela estrutura do Pandas e quis trazer o retorno da sugestão dele (Prompt 2) no próximo passo, tentei trazer um assunto que utilizo em meu dia, para buscar novas idéias (Prompt 3) e por último trouxe outro problema que enfrento quando uso IA, ela trás diversas informações e joga tudo na tela, onde deveria conduzir de uma forma mais suave, mais educativa dependendo do assunto. (Prompt 4). Porém, na DIO descobri sobre Engenharia de Prompt e vou passar a utilizar melhor os meus daqui para frente.
 
+## 📖 Glossário e Revisão
+Conceitos Chave (Dicionário McKinney)
+  * DataFrame: A estrutura principal. Pense nela como uma "super planilha" de Excel que vive dentro do Python.
+  * Series: Uma única coluna do DataFrame. É o átomo de dados do Pandas.
+  * Data Wrangling: O termo "bonito" para o trabalho pesado de limpar e organizar dados bagunçados.
+  * Missing Data (NaN): Como o Pandas identifica "buracos" nos dados. Wes McKinney deu muita atenção a isso para facilitar a vida dos analistas.
+  * Vectorization: É o que torna o Pandas rápido. Em vez de processar uma linha por vez, ele processa a coluna inteira de uma vez só.
