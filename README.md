@@ -13,7 +13,7 @@ Fonte 5 - https://www.dio.me/articles/bibliotecas-python-pandas
 Fonte 6 - Usei o Deep Research para incrementar
 ****
 
-## 🧠 Engenharia de Prompts
+## 🧠 Engenharia de Prompts..
 **Prompt 1** - Para começarmos, como foi e qual era o intuito da criação do Pandas?
 
 > **Resposta** - A criação da biblioteca Pandas foi iniciada por Wes McKinney em 2008, enquanto ele trabalhava na AQR Capital Management
