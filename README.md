@@ -13,11 +13,11 @@ Fonte 5 - https://www.dio.me/articles/bibliotecas-python-pandas
 Fonte 6 - Usei o Deep Research para incrementar
 ****
 
-## 🧠 Engenharia de Prompts..
+## 🧠 Engenharia de Prompts
 **Prompt 1** - Para começarmos, como foi e qual era o intuito da criação do Pandas?
 
-> **Resposta** - A criação da biblioteca Pandas foi iniciada por Wes McKinney em 2008, enquanto ele trabalhava na AQR Capital Management
-. O desenvolvimento surgiu da necessidade de ferramentas mais robustas para a análise de dados financeiros, e a biblioteca foi tornada código aberto (open source) no final de 2009
+> **Resposta** - A criação da biblioteca Pandas foi iniciada por Wes McKinney em 2008, enquanto ele trabalhava na AQR Capital Management.
+> O desenvolvimento surgiu da necessidade de ferramentas mais robustas para a análise de dados financeiros, e a biblioteca foi tornada código aberto (open source) no final de 2009
 O intuito principal por trás de sua criação e os problemas que ela buscou resolver incluem:
 Estruturação de Dados Tabulares: Introduziu o conceito de DataFrame, uma estrutura bidimensional rotulada que permite manipular dados de forma intuitiva, similar a uma planilha eletrônica, mas com o poder de processamento de uma linguagem de programação de alto nível. Tratamento de "Dados Sujos": Foi projetada para lidar com dados mal estruturados, facilitando tarefas como a remoção de duplicatas, tratamento de valores ausentes e transformação de formatos de data e hora. Análise de Séries Temporais: Um de seus pontos fortes originais é a capacidade de realizar operações complexas em séries temporais, como reamostragem e janelas móveis, o que é fundamental para o setor financeiro. Interoperabilidade e Base para o Ecossistema: O Pandas foi construído sobre o NumPy, garantindo que a saída de suas ferramentas possa servir como entrada otimizada para outras bibliotecas, como Scikit-learn e Matplotlib. Democratização da Análise: O objetivo da biblioteca é ser um bloco de construção fundamental e de alto nível para a análise de dados no mundo real, tornando o software de manipulação de dados acessível, gratuito, flexível e fácil de usar para todos. Gostaria que eu explicasse melhor como funciona a estrutura de um DataFrame ou prefere ver exemplos de como o Pandas limpa "dados sujos"?
 ****
