@@ -56,10 +56,15 @@ Deseja que eu crie um relatório detalhado com as melhores práticas para estrut
 
 **Cicatrizes/Raciocíonio** - Comecei com a história do Pandas, para entender a motivação da criação dessa biblioteca (Prompt 1) em seguida, ele me sugeriu alguns dois temas, particulamente me interessei pela estrutura do Pandas e quis trazer o retorno da sugestão dele (Prompt 2) no próximo passo, tentei trazer um assunto que utilizo em meu dia, para buscar novas idéias (Prompt 3) e por último trouxe outro problema que enfrento quando uso IA, ela trás diversas informações e joga tudo na tela, onde deveria conduzir de uma forma mais suave, mais educativa dependendo do assunto. (Prompt 4). Porém, na DIO descobri sobre Engenharia de Prompt e vou passar a utilizar melhor os meus daqui para frente.
 
-## 📖 Glossário e Revisão
-Conceitos Chave (Dicionário McKinney)
+## 📖 Glossário e Revisão (Utilizado IA Gemini para ajudar na construção)
+ Conceitos Chave (Dicionário McKinney)
   * DataFrame: A estrutura principal. Pense nela como uma "super planilha" de Excel que vive dentro do Python.
   * Series: Uma única coluna do DataFrame. É o átomo de dados do Pandas.
   * Data Wrangling: O termo "bonito" para o trabalho pesado de limpar e organizar dados bagunçados.
   * Missing Data (NaN): Como o Pandas identifica "buracos" nos dados. Wes McKinney deu muita atenção a isso para facilitar a vida dos analistas.
   * Vectorization: É o que torna o Pandas rápido. Em vez de processar uma linha por vez, ele processa a coluna inteira de uma vez só.
+
+## 💡 Prompts Reutilizáveis
+  * Para Revisão Rápida: "Com base no material do Wes McKinney, faça um resumo dos 5 conceitos mais importantes para quem está começando hoje."
+  * Para Testar Conhecimento: "Comporte-se como um professor de Python. Me faça 3 perguntas sobre manipulação de DataFrames e avalie minhas respostas."
+  * Para Prática: "Sugira um exercício prático de limpeza de dados utilizando as funções drop_duplicates e fillna mencionadas nas fontes."
