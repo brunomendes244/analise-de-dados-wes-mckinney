@@ -32,7 +32,7 @@ Estruturação de Dados Tabulares: Introduziu o conceito de DataFrame, uma estru
 5. Tratamento de Dados - Uma das maiores vantagens dessa estrutura é a sua inteligência integrada para lidar com "dados sujos": Valores Ausentes: Possui mecanismos nativos para identificar e manipular dados nulos ou faltantes de forma automática. Alinhamento de Dados: Ao realizar operações entre dois DataFrames, o Pandas utiliza os rótulos para garantir que os dados corretos sejam combinados, mesmo que as tabelas não estejam na mesma ordem.
 Gostaria de ver um exemplo de como criar um DataFrame a partir de um dicionário Python ou prefere aprender como selecionar colunas e filtrar linhas específicas?
 ****
-
+<
 **Prompt 3** - Como o Pandas me ajuda com automatização na análise?
 
 > **Resposta** - O Pandas é uma ferramenta fundamental para a automatização pois transforma tarefas manuais, repetitivas e demoradas em fluxos de trabalho programáveis, rápidos e reprodutíveis. Em vez de utilizar ferramentas de "clicar e apontar", o uso de scripts em Pandas garante que qualquer análise possa ser repetida e verificada automaticamente por outros. Aqui estão as principais formas como a biblioteca auxilia na automatização da análise de dados:
